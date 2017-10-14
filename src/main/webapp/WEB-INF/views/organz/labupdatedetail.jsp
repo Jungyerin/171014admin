@@ -68,6 +68,7 @@
 										+ index2 + "].cdNm' value='"
 										+ codeList3[i].cdNm + "'>"
 										+ "</div>")
+										index++;
 				checkList.push(codeList3[i].cdNm);
 				
 		}

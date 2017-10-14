@@ -208,6 +208,7 @@ public class OrganzController {
 		System.out.println(codeList1);
 		System.out.println(codeList2);
 		System.out.println(codeList3);
+		
 
 		JSONArray jsonArray = new JSONArray();
 		model.addAttribute("codeList", jsonArray.fromObject(codeList));
